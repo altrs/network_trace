@@ -2,7 +2,8 @@ NETWORK TRACE NOTES
 Physical Network Trace
 Robin Altman
 
-http://oldcomputers.net/ - I generally use this website to view old computer models as inspiration for projects, or just getting a better understanding of the development of computers throughout the years.
+http://oldcomputers.net/ - I generally use this website to view old computer models as inspiration 
+for projects, or just getting a better understanding of the development of computers throughout the years.
 
 1.0    192.168.1.1      Origin Computer
 2.0    108.30.14.1      New York, NY 40.713192, -74.006065
@@ -30,3 +31,19 @@ Main Locations:
 	- Ashburn, VA
 	- Los Angeles, CA
 	- Provo, UT
+
+---------------------------------------------------------
+New York, NY
+40.713192, -74.006065
+
+The coordinates are right by the Tweed Courthouse in City Hall Park. 1998 to August 1999 the area was excavated as the land City Hall Park forms is part of the African Burial Ground and Historic Commons Historic District. The
+result of the eight-month-long project was the identification of fifty-one (51) features consisting of twenty-five (25) trash pits and twenty-six (26) architectural features, and the recovery of more than an estimated two hundred fifty thousand (250,000) artifacts and faunal remains.
+
+In 2001, CUNY reached an agreement with Parks to conduct the cataloguing, stabilization and analysis of the artifacts.
+
+City Hall Park occupies Munsee Lenape land, one of three Lenape sub tribes. A fraudulent treaty known as the Walking Purchase resulted in the forced removal of the Munsee, moving from the Delaware River to the Susquehanna River.
+
+Links:
+http://s-media.nyc.gov/agencies/lpc/arch_reports/1046_A.pdf
+https://archaeology.cityofnewyork.us/collection/map/city-hall-park
+https://en.wikipedia.org/wiki/Munsee
