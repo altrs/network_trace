@@ -86,14 +86,44 @@ https://www.syracuse.com/news/2014/08/syracuse_facts_things_you_never_knew_about
 Ashburn, VA
 39.039474, -77.491809
 
+34 miles from Washington D.C., Ashburn is often considered the 'Data Center Capital of the World.'
+An estimated 70 percent of the planet’s Internet traffic flows each and every day.
+Ashburn is the ideal place for Internet and fiber network expansion because of the cost of land, the 
+cost of electricity, safe location weather-wise, and the support of the local government.
 
+"Residents and county governments there are beginning to weigh the industry’s economic benefits 
+against the environmental costs. Those costs include increased stormwater runoff from buildings 
+and parking lots, air pollution from backup generators and, perhaps above all, the pressure that 
+energy-intensive cloud computing puts on local power grids."(Bayjournal.com)
 
+https://www.datacenters.com/news/why-is-ashburn-the-data-center-capital-of-the-world
+https://lightyear.ai/blogs/ashburn-colocation-data-center-alley
+https://www.bayjournal.com/news/growth_conservation/data-centers-may-be-nearing-tipping-point-in-northern-virginia/article_16c6281e-fff2-11ed-987c-07e765e5f710.html
 
 ---------------------------------------------------------
 Los Angeles, CA
 34.052571, -118.243907
 
+This coordinate is also right by Los Angeles's City Hall. Some fun facts:
 
+"L.A. wasn’t always the home of the film industry. The City of Angels is famous for being the 
+land of show biz, but it hasn’t always been that way. The original location of the entertainment 
+industry was in Atlantic City. So why did it move to L.A.? Basically to get away from Thomas 
+Edison. Edison held most of the country’s film patents and established a monopoly on all aspects 
+of filmmaking. In Los Angeles filmmakers found freedom from his claims, cheap land and plenty
+of labor"(travelnotesandbeyond.com).
+
+There are 'secret' tunnels under the city. These tunnels are abandoned subway passages, and 
+routes people used to smuggle liquor during the Prohibition era.
+
+Los Angeles is known for its car-dependency, "But the city (and the surrounding county) also 
+now has the country’s most ambitious plan for cutting emissions from transportation. In less 
+than a decade, it wants the majority of new cars to be electric and all city buses to be 
+electric—and it wants 20% of trips that currently happen in single-occupancy cars to shift to 
+public transportation or active transportation like biking"(Fastcompany.com).
+
+https://travelnotesandbeyond.com/fun-facts-los-angeles/
+https://www.fastcompany.com/90436610/how-los-angeles-plans-to-get-hundreds-of-thousands-of-people-out-of-cars
 
 
 ---------------------------------------------------------
