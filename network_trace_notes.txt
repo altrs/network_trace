@@ -2,8 +2,8 @@ NETWORK TRACE NOTES
 Physical Network Trace
 Robin Altman
 
-http://oldcomputers.net/ - I generally use this website to view old computer models as inspiration 
-for projects, or just getting a better understanding of the development of computers throughout the years.
+http://oldcomputers.net/ - I generally use this website to view old computer models, 
+getting a better understanding of the development of computers throughout the years.
 
 1.0    192.168.1.1      Origin Computer
 2.0    108.30.14.1      New York, NY 40.713192, -74.006065
@@ -65,15 +65,64 @@ https://ramapomunsee.net/
 Syracuse, NY
 43.04812, -76.14742
 
+These coordinates are very close to the Onondaga Historical Association and Firefighters Memorial Park.
+Syracuse is "called the “Salt City,” flourished in the mid-1800s. Although the city had lost its 
+70-year monopoly in salt manufacturing the economy continued to prosper thanks to diversified industry, 
+the Erie Canal, and the railroads"(Syr.gov)
+
+"Nyaweñha sgé•noñ’ is our traditional greeting when we meet each other. It is roughly translated to- 
+I am thankful that you are well."(Onondaganation.org)
+
+Some interesting fun facts:
+The reclining dental chair was invented by Syracuse's own Milton Waldo Hanchett in 1840.
+Syracuse is a "super-green city," with top rankings in National Geographic and Popular Science.
+The first pair of Loafers were created in Syracuse by the A.E. Nettleton Company in 1937.
+
+https://www.syr.gov/Government/History-of-City-Hall#:~:text=Syracuse%2C%20called%20the%20%E2%80%9CSalt%20City,Erie%20Canal%2C%20and%20the%20railroads.
+https://www.onondaganation.org/aboutus/
+https://www.syracuse.com/news/2014/08/syracuse_facts_things_you_never_knew_about_central_new_york.html
 
 ---------------------------------------------------------
+Ashburn, VA
+39.039474, -77.491809
+
+
+
+
+---------------------------------------------------------
+Los Angeles, CA
+34.052571, -118.243907
+
+
+
+
+---------------------------------------------------------
+
+
 Provo, UT
 40.213911, -111.634071
 
-A local's take on Provo: It has really weird energy. Provo used to be absolutely nothing, and only 
-started being developed in the 1950's. Many closed mines are in the area (copper, zinc, silver, and 
-lead), there are smoke stacks, and that is also where much of refining of salt occurs. It's on Utah 
-Lake which is the 2nd largest lake in Utah. "Urbanized boonies." Much contention around building 
-as it's nearby the lake.
+A local's take on Provo (my roommate): "It has really weird energy. Provo used to be absolutely nothing, 
+and only started being developed in the 1950's. Many closed mines are in the area (copper, zinc, silver, 
+and lead), there are smoke stacks, and that is also where much of refining of salt happens. It's on Utah 
+Lake which is the 2nd largest lake in Utah. There's much contention around building as it's nearby the 
+lake. It's urbanized boonies."
+
+"Provo soon became known as the "Garden City" because of its extensive fruit orchards, trees, and gardens. 
+In the late 1860s, industrialization began with the creation of The Provo Woolen Mills. In the 1920s, the 
+Ironton Steel Mill was established, and later the much larger Geneva Steel Plant was built in the city.
+
+Angel Meroni - The angel on top of all the LDS temples.
+
+The Ute: the language of the Utes is Shoshonean, a dialect of that Uto-Aztecan language. As of 2013, it has a 
+tribal membership of 2,970 and over half of its membership lives on the Reservation. Beginning in 1847, Utes 
+experienced the full impact of Euro-American contact with the arrival of Mormon settlers.
+
+http://www.us-mining.com/utah/provo
+https://www.utah.com/destinations/cities-towns/provo/things-to-do/history/
+https://newsroom.churchofjesuschrist.org/article/angel-moroni-statues-on-temples
+https://www.southernute-nsn.gov/history/
+http://www.utetribe.com/
+
 
 
