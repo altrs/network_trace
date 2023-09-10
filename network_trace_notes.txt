@@ -5,6 +5,8 @@ Robin Altman
 http://oldcomputers.net/ - I generally use this website to view old computer models, 
 getting a better understanding of the development of computers throughout the years.
 
+(Photos included in repository https://github.com/altrs/network_trace)
+
 1.0    192.168.1.1      Origin Computer
 2.0    108.30.14.1      New York, NY 40.713192, -74.006065
 3.0    100.41.198.80    Syracuse, NY 43.04812, -76.14742
