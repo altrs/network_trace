@@ -10,20 +10,63 @@
   <body>
 
     <div class="container">
-      <h1>origin.computer</h1>
-      <h3>physical network trace</h3>
+      <h1>physical network trace</h1>
+      <h3>first stop: origin-computer</h3>
       <img id="gif" src="photos/computer.gif"/>
       <br>
       <button onclick="path()">START JOURNEY</button>
 
       <div style="margin-left: 50px">
-        <p id="path1"></p>
+        <p id="path1" style="margin-bottom: 50px;"></p>
       </div>
+
+      <div class="loc" id="nyc">
+        <h2>40.713192, -74.006065 <br> new york</h2>
+      </div>
+
+      <div style="margin-left: 50px">
+        <p id="path1" style="margin-bottom: 50px;"></p>
+      </div>
+
+      <div class="loc" id="syr">
+        <h2>43.04812, -76.14742 <br> syracuse</h2>
+      </div>
+
+      <div style="margin-left: 50px">
+        <p id="path1" style="margin-bottom: 50px;"></p>
+      </div>
+
+      <div class="loc" id="ash">
+        <h2>39.039474, -77.491809 <br> ashburn</h2>
+      </div>
+
+      <div style="margin-left: 50px">
+        <p id="path1" style="margin-bottom: 50px;"></p>
+      </div>
+
+      <div class="loc" id="la">
+        <h2>34.052571, -118.243907 <br> los angeles</h2>
+      </div>
+
+      <div style="margin-left: 50px">
+        <p id="path1" style="margin-bottom: 50px;"></p>
+      </div>
+
+      <div class="loc" id="pro">
+        <h2>43.04812, -76.14742 <br> syracuse</h2>
+      </div>
+
+      <div style="margin-left: 50px">
+        <p id="path1" style="margin-bottom: 50px;"></p>
+      </div>
+
     </div>
 
 
     <script type="text/javascript">
-      
+
+      const ny = document.createElement("div");
+
       function path(){
         var path1 = document.getElementById('path1');
         let index = 0;
@@ -31,8 +74,12 @@
           if (index < 20) {
             path1.innerText += '|\n';
             index++;
+            window.scrollBy(0, 500);
           }
         }, 500);
+        // setTimeout(() => {
+        //   document.
+        // }, "10000");
       }
 
 
