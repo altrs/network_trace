@@ -24,8 +24,22 @@
         <div class="loc" id="nyc">
           <h3>40.713192, -74.006065 <br> (new york-ny)</h3>
 
-
-
+          <p>The coordinates are right by the Tweed Courthouse in City Hall Park. 1998 to August 1999 the area was 
+            excavated as the land City Hall Park forms is part of the African Burial Ground and Historic Commons 
+            Historic District. The result of the eight-month-long project was the identification of fifty-one (51) 
+            features consisting of twenty-five (25) trash pits and twenty-six (26) architectural features, and the 
+            recovery of more than an estimated two hundred fifty thousand (250,000) artifacts and faunal remains.
+            <br><br>
+            In 2001, CUNY reached an agreement with Parks to conduct the cataloguing, stabilization and analysis 
+            of the artifacts. (archaeology.cityofnewyork.us)
+            <br><br>
+            "Investigations revealed that during the 17th and 18th centuries, free and enslaved Africans were 
+            buried in a 6.6 acre burial ground in lower Manhattan outside the boundaries of the settlement of 
+            New Amsterdam, which would become New York." (GSA.gov)
+            <br><br>
+            City Hall Park occupies Munsee Lenape land, one of three Lenape sub tribes. A fraudulent treaty known 
+            as the Walking Purchase resulted in the forced removal of the Munsee, moving from the Delaware River 
+            to the Susquehanna River. </p>
 
 
           <button onclick="path2()">WHERE NEXT?</button>
@@ -88,6 +102,20 @@
 
     </div>
 
+    <div class="imgs" id="img1">
+      <img src="photos/newyork/city-hall-park.jpeg"/>
+      <img src="photos/newyork/city_hall_park_excavation_1.jpeg"/>
+      <img src="photos/newyork/city_hall_park_excavation_2.jpeg"/>
+      <img src="photos/newyork/city_hall_park_excavation_3.jpeg"/>
+      <img src="photos/newyork/munsee_lenape_map.jpeg"/>
+    </div>
+
+    <div class="imgs" id="img2">
+      <img src="photos/syracuse/Onondaga.jpeg"/>
+      <img src="photos/syracuse/Syracuse_NY.jpg"/>
+      <img src="photos/syracuse/loafers.png"/>
+    </div>
+
 
     <script type="text/javascript">
 
@@ -109,6 +137,10 @@
           window.scrollBy(0, 500);
         }, "10000");
       }
+      document.getElementById("nyc").addEventListener("mouseover", mouseOver1);
+      document.getElementById("nyc").addEventListener("mouseout", mouseOut1);
+      function mouseOver1() {img1.style.display = "block";}
+      function mouseOut1() {img1.style.display = "none";}
 
       function path2(){
         var path1 = document.getElementById('path2');
@@ -126,6 +158,10 @@
           window.scrollBy(0, 500);
         }, "10000");
       }
+      document.getElementById("syr").addEventListener("mouseover", mouseOver2);
+      document.getElementById("syr").addEventListener("mouseout", mouseOut2);
+      function mouseOver2() {img2.style.display = "block";}
+      function mouseOut2() {img2.style.display = "none";}
 
       function path3(){
         var path1 = document.getElementById('path3');
