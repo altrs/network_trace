@@ -11,5 +11,7 @@
 }
 
 .loc{
-/*	display: none;*/
+	display: none;
+	border: 1px solid;
+	padding: 10px;
 }

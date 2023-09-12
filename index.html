@@ -20,44 +20,70 @@
         <p id="path1" style="margin-bottom: 50px;"></p>
       </div>
 
-      <div class="loc" id="nyc">
-        <h2>40.713192, -74.006065 <br> new york</h2>
-      </div>
+      <!--NEW YORK NEW YORK NEW YORK NEW YORK NEW YORK-->
+        <div class="loc" id="nyc">
+          <h3>40.713192, -74.006065 <br> (new york-ny)</h3>
+
+
+
+
+
+          <button onclick="path2()">WHERE NEXT?</button>
+        </div>
 
       <div style="margin-left: 50px">
-        <p id="path1" style="margin-bottom: 50px;"></p>
+        <p id="path2" style="margin-bottom: 50px;"></p>
       </div>
 
-      <div class="loc" id="syr">
-        <h2>43.04812, -76.14742 <br> syracuse</h2>
-      </div>
+      <!--SYRACUSE SYRACUSE SYRACUSE SYRACUSE SYRACUSE SYRACUSE-->
+        <div class="loc" id="syr">
+          <h3>43.04812, -76.14742 <br> (syracuse-ny)</h3>
+
+
+
+
+
+          <button onclick="path3()">WHERE NEXT?</button>
+        </div>
 
       <div style="margin-left: 50px">
-        <p id="path1" style="margin-bottom: 50px;"></p>
+        <p id="path3" style="margin-bottom: 50px;"></p>
       </div>
 
+      <!--ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN -->
       <div class="loc" id="ash">
-        <h2>39.039474, -77.491809 <br> ashburn</h2>
+        <h3>39.039474, -77.491809 <br> (ashburn-va)</h3>
+
+
+
+
+        <button onclick="path4()">WHERE NEXT?</button>
       </div>
 
       <div style="margin-left: 50px">
-        <p id="path1" style="margin-bottom: 50px;"></p>
+        <p id="path4" style="margin-bottom: 50px;"></p>
       </div>
 
+      <!--LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA-->
       <div class="loc" id="la">
-        <h2>34.052571, -118.243907 <br> los angeles</h2>
+        <h3>34.052571, -118.243907 <br> (los angeles-ca)</h3>
+
+
+        <button onclick="path5()">WHERE NEXT?</button>
       </div>
 
       <div style="margin-left: 50px">
-        <p id="path1" style="margin-bottom: 50px;"></p>
+        <p id="path5" style="margin-bottom: 50px;"></p>
       </div>
 
+      <!--PROVO PROVO PROVO PROVO PROVO PROVO PROVO PROVO PROVO -->
       <div class="loc" id="pro">
-        <h2>43.04812, -76.14742 <br> syracuse</h2>
-      </div>
+        <h3>43.04812, -76.14742 <br> (provo-ut)</h3>
 
-      <div style="margin-left: 50px">
-        <p id="path1" style="margin-bottom: 50px;"></p>
+
+
+
+        <a href="http://oldcomputers.net/"><button>WHERE'S THIS LEAD TO?</button></a>
       </div>
 
     </div>
@@ -77,9 +103,79 @@
             window.scrollBy(0, 500);
           }
         }, 500);
-        // setTimeout(() => {
-        //   document.
-        // }, "10000");
+        setTimeout(() => {
+          let nyc = document.getElementById('nyc');
+          nyc.style.display = "block";
+          window.scrollBy(0, 500);
+        }, "10000");
+      }
+
+      function path2(){
+        var path1 = document.getElementById('path2');
+        let index = 0;
+        setInterval(() => {
+          if (index < 20) {
+            path1.innerText += '|\n';
+            index++;
+            window.scrollBy(0, 500);
+          }
+        }, 500);
+        setTimeout(() => {
+          let syr = document.getElementById('syr');
+          syr.style.display = "block";
+          window.scrollBy(0, 500);
+        }, "10000");
+      }
+
+      function path3(){
+        var path1 = document.getElementById('path3');
+        let index = 0;
+        setInterval(() => {
+          if (index < 20) {
+            path1.innerText += '|\n';
+            index++;
+            window.scrollBy(0, 500);
+          }
+        }, 500);
+        setTimeout(() => {
+          let ash = document.getElementById('ash');
+          ash.style.display = "block";
+          window.scrollBy(0, 500);
+        }, "10000");
+      }
+
+      function path4(){
+        var path1 = document.getElementById('path4');
+        let index = 0;
+        setInterval(() => {
+          if (index < 20) {
+            path1.innerText += '|\n';
+            index++;
+            window.scrollBy(0, 500);
+          }
+        }, 500);
+        setTimeout(() => {
+          let la = document.getElementById('la');
+          la.style.display = "block";
+          window.scrollBy(0, 500);
+        }, "10000");
+      }
+
+      function path5(){
+        var path1 = document.getElementById('path5');
+        let index = 0;
+        setInterval(() => {
+          if (index < 20) {
+            path1.innerText += '|\n';
+            index++;
+            window.scrollBy(0, 500);
+          }
+        }, 500);
+        setTimeout(() => {
+          let pro = document.getElementById('pro');
+          pro.style.display = "block";
+          window.scrollBy(0, 500);
+        }, "10000");
       }
 
 
