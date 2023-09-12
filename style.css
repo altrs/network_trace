@@ -1,0 +1,13 @@
+body{
+	display: flex;
+}
+
+.container{
+	display: inline-block;
+	align-content: center;
+	justify-content: center;
+}
+
+#gif{
+	width: 300px;
+}

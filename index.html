@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Physical Network Trace</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>origin.computer</h1>
+      <h3>physical network trace</h3>
+      <img id="gif" src="photos/computer.gif"/>
+      <br>
+      <button onclick="path()">START JOURNEY</button>
+
+      <div style="margin-left: 50px">
+        <p id="path1"></p>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      
+      function path(){
+        var path1 = document.getElementById('path1');
+        let index = 0;
+        setInterval(() => {
+          if (index < 20) {
+            path1.innerText += '|\n';
+            index++;
+          }
+        }, 500);
+      }
+
+
+    </script>
+
+  </body>
+</html>
