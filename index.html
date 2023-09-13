@@ -9,12 +9,14 @@
   </head>
   <body>
 
+    <!-- this code is a bit messy... -->
+
     <div class="container">
       <h1>physical network trace</h1>
-      <h3>first stop: origin-computer</h3>
+      <h3>first location: origin-computer</h3>
       <img id="gif" src="photos/computer.gif"/>
       <br>
-      <button onclick="path()">START JOURNEY</button>
+      <button id="b1" onclick="path()">START JOURNEY</button>
 
       <div style="margin-left: 50px">
         <p id="path1" style="margin-bottom: 50px;"></p>
@@ -22,7 +24,7 @@
 
       <!--NEW YORK NEW YORK NEW YORK NEW YORK NEW YORK-->
         <div class="loc" id="nyc">
-          <h3>40.713192, -74.006065 <br> (new york-ny)</h3>
+          <h3>40.713192, -74.006065 <br> (new york-ny) 140.222.229.91</h3>
 
           <p>The coordinates are right by the Tweed Courthouse in City Hall Park. 1998 to August 1999 the area was 
             excavated as the land City Hall Park forms is part of the African Burial Ground and Historic Commons 
@@ -41,8 +43,16 @@
             as the Walking Purchase resulted in the forced removal of the Munsee, moving from the Delaware River 
             to the Susquehanna River. </p>
 
+            <p>
+              <a target="_blank" href="http://s-media.nyc.gov/agencies/lpc/arch_reports/1046_A.pdf">✰</a>
+              <a target="_blank" href="https://archaeology.cityofnewyork.us/collection/map/city-hall-park">✰</a>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/African_Burial_Ground_National_Monument">✰</a>
+              <a target="_blank" href="https://www.gsa.gov/about-us/regions/region-2-northeast-and-caribbean/about-region-2/african-burial-ground">✰</a>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Munsee">✰</a>
+              <a target="_blank" href="https://ramapomunsee.net/">✰</a>
+            </p>
 
-          <button onclick="path2()">WHERE NEXT?</button>
+          <button id="b2" onclick="path2()">WHERE NEXT?</button>
         </div>
 
       <div style="margin-left: 50px">
@@ -51,7 +61,7 @@
 
       <!--SYRACUSE SYRACUSE SYRACUSE SYRACUSE SYRACUSE SYRACUSE-->
         <div class="loc" id="syr">
-          <h3>43.04812, -76.14742 <br> (syracuse-ny)</h3>
+          <h3>43.04812, -76.14742 <br> (syracuse-ny) 100.41.198.80</h3>
 
           <p>These coordinates are very close to the Onondaga Historical Association and Firefighters Memorial Park.
           Syracuse is "called the “Salt City,” flourished in the mid-1800s. Although the city had lost its 
@@ -67,7 +77,13 @@
           The first pair of Loafers were created in Syracuse by the A.E. Nettleton Company in 1937.
           </p>
 
-          <button onclick="path3()">WHERE NEXT?</button>
+          <p>
+            <a target="_blank" href="https://www.syr.gov/Government/History-of-City-Hall#:~:text=Syracuse%2C%20called%20the%20%E2%80%9CSalt%20City,Erie%20Canal%2C%20and%20the%20railroads.">✰</a>
+            <a target="_blank" href="https://www.onondaganation.org/aboutus/">✰</a>
+            <a target="_blank" href="https://www.syracuse.com/news/2014/08/syracuse_facts_things_you_never_knew_about_central_new_york.html">✰</a>
+          </p>
+
+          <button id="b3" onclick="path3()">WHERE NEXT?</button>
         </div>
 
       <div style="margin-left: 50px">
@@ -76,7 +92,7 @@
 
       <!--ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN ASHBURN -->
       <div class="loc" id="ash">
-        <h3>39.039474, -77.491809 <br> (ashburn-va)</h3>
+        <h3>39.039474, -77.491809 <br> (ashburn-va) 129.250.6.116</h3>
 
         <p>34 miles from Washington D.C., Ashburn is often considered the 'Data Center Capital of the World.'
         An estimated 70 percent of the planet’s Internet traffic flows each and every day.
@@ -89,8 +105,14 @@
         energy-intensive cloud computing puts on local power grids."(Bayjournal.com)
       </p>
 
+      <p>
+        <a target="_blank" href="https://www.datacenters.com/news/why-is-ashburn-the-data-center-capital-of-the-world">✰</a>
+        <a target="_blank" href="https://lightyear.ai/blogs/ashburn-colocation-data-center-alley">✰</a>
+        <a target="_blank" href="https://www.bayjournal.com/news/growth_conservation/data-centers-may-be-nearing-tipping-point-in-northern-virginia/article_16c6281e-fff2-11ed-987c-07e765e5f710.html">✰</a>
+      </p>
 
-        <button onclick="path4()">WHERE NEXT?</button>
+
+        <button id="b4" onclick="path4()">WHERE NEXT?</button>
       </div>
 
       <div style="margin-left: 50px">
@@ -99,7 +121,7 @@
 
       <!--LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA LA-->
       <div class="loc" id="la">
-        <h3>34.052571, -118.243907 <br> (los angeles-ca)</h3>
+        <h3>34.052571, -118.243907 <br> (los angeles-ca) 129.250.3.189</h3>
         
         <p>
           This coordinate is also right by Los Angeles's City Hall. Some fun facts: <br><br>
@@ -121,8 +143,13 @@
           public transportation or active transportation like biking"(Fastcompany.com).
         </p>
 
+        <p>
+          <a target="_blank" href="https://travelnotesandbeyond.com/fun-facts-los-angeles/">✰</a>
+          <a target="_blank" href="https://www.fastcompany.com/90436610/how-los-angeles-plans-to-get-hundreds-of-thousands-of-people-out-of-cars">✰</a>
+        </p>
 
-        <button onclick="path5()">WHERE NEXT?</button>
+
+        <button id="b5" onclick="path5()">WHERE NEXT?</button>
       </div>
 
       <div style="margin-left: 50px">
@@ -130,8 +157,8 @@
       </div>
 
       <!--PROVO PROVO PROVO PROVO PROVO PROVO PROVO PROVO PROVO -->
-      <div class="loc" id="pro">
-        <h3>43.04812, -76.14742 <br> (provo-ut)</h3>
+      <div class="loc" id="pro" style="margin-bottom: 50px;">
+        <h3>43.04812, -76.14742 <br> (provo-ut) 162.215.195.128</h3>
 
         <p>
           A local's take on Provo (my roommate): "It has really weird energy. Provo used to be absolutely nothing, 
@@ -151,7 +178,15 @@
           experienced the full impact of Euro-American contact with the arrival of Mormon settlers.
         </p>
 
-        <a href="http://oldcomputers.net/"><button>WHERE'S THIS LEAD TO?</button></a>
+        <p>
+            <a target="_blank" href="http://www.us-mining.com/utah/provo">✰</a>
+            <a target="_blank" href="https://www.utah.com/destinations/cities-towns/provo/things-to-do/history/">✰</a>
+            <a target="_blank" href="https://newsroom.churchofjesuschrist.org/article/angel-moroni-statues-on-temples">✰</a>
+            <a target="_blank" href="https://www.southernute-nsn.gov/history/">✰</a>
+            <a target="_blank" href="http://www.utetribe.com/">✰</a>
+          </p>
+
+        <a target="_blank" href="http://oldcomputers.net/"><button>WHERE'S THIS LEAD TO?</button></a>
       </div>
 
     </div>
@@ -195,6 +230,7 @@
       const ny = document.createElement("div");
 
       function path(){
+        document.getElementById("b1").disabled = true;
         var path1 = document.getElementById('path1');
         let index = 0;
         setInterval(() => {
@@ -216,6 +252,7 @@
       function mouseOut1() {img1.style.display = "none";}
 
       function path2(){
+        document.getElementById("b2").disabled = true;
         var path1 = document.getElementById('path2');
         let index = 0;
         setInterval(() => {
@@ -237,6 +274,7 @@
       function mouseOut2() {img2.style.display = "none";}
 
       function path3(){
+        document.getElementById("b3").disabled = true;
         var path1 = document.getElementById('path3');
         let index = 0;
         setInterval(() => {
@@ -259,6 +297,7 @@
 
 
       function path4(){
+        document.getElementById("b4").disabled = true;
         var path1 = document.getElementById('path4');
         let index = 0;
         setInterval(() => {
@@ -280,6 +319,7 @@
       function mouseOut4() {img4.style.display = "none";}
 
       function path5(){
+        document.getElementById("b5").disabled = true;
         var path1 = document.getElementById('path5');
         let index = 0;
         setInterval(() => {
